@@ -19,8 +19,8 @@
       <!-- JDBC konekcija (prilagodi url/user/password svojoj bazi!) -->
       <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
       <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/quizdb?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true"/>
-      <property name="jakarta.persistence.jdbc.user" value="mladen"/>
-      <property name="jakarta.persistence.jdbc.password" value="mladen"/>
+      <property name="jakarta.persistence.jdbc.user" value="root"/>
+      <property name="jakarta.persistence.jdbc.password" value= "#tanya$"/>
 
       <!-- Dovoljno je da navedemo dialect ili URL; ostavljam i jedno i drugo radi sigurnosti -->
       <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
@@ -32,4 +32,6 @@
     </properties>
   </persistence-unit>
 </persistence>
+
+
 
